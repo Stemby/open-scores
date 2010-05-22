@@ -71,7 +71,7 @@ violinoIPmo = \context Voice = vlI {
 			fis4 fis( b
 			e,_\dimin a gis
 			fis\< bis4.\!\> cis8\!)%		60
-			cis4( fis, a 
+			cis4( fis, a
 			gis) gis(_\markup { \italic "più" \dynamic f } a
 			b\< cis4.\!\> fis,8\!)
 			fis4 fis( gis

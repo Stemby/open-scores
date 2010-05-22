@@ -109,7 +109,7 @@ celloPmo = \context Voice = vlc {
 			R2.
 			a
 			R
-			r4 fis8 r b r
+			r4 fis8 r b r%			100
 			e,4 r r
 		}
 		d'2.
@@ -117,7 +117,11 @@ celloPmo = \context Voice = vlc {
 		d d e
 		a,2.
 		d2 r4
-		
+		<g, d'>2. ~
+		<g d'> ~
+		<g d'>
+		g%					110
+
 		\bar "|."
 	}
 }

@@ -193,8 +193,8 @@ violaPmo = \context Voice = vla {
 		r4 cis2 ~
 		cis4 cis fis
 		cis2 b4%		190
-		gis?2 
-		
+		gis?2
+
 		\bar "|."
 	}
 }

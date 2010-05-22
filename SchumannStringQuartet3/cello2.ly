@@ -107,7 +107,7 @@ celloSndo = \context Voice = vlc {
 			d cis cis
 			cis cis cis
 			cis d->\< d\!
-			d\> d d 
+			d\> d d
 			d cis cis\!
 			cis d-> d%		90
 			d cis cis
@@ -115,7 +115,7 @@ celloSndo = \context Voice = vlc {
 			\textSpannerUp
 			b \unPoRitardan ais\startTextSpan ais
 			ais b b
-			b[ b,] b 
+			b[ b,] b
 			b( bis^\do\stopTextSpan) bis%		96
 			bis[( cis)] cis(
 		}

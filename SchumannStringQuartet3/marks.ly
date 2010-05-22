@@ -4,7 +4,7 @@
 	title = "Quartett A-dur"
 	subtitle = "Op.41 n.3"
 	composer = "Robert Schumann"
-	
+
 	%{ mutopiatitle = "String quartet in A major"
 	mutopiacomposer = "???"
 	mutopiaopus = "???"

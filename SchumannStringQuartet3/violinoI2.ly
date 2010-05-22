@@ -11,7 +11,6 @@ violinoISndo = \context Voice = vlI {
 		\repeat volta 2 {
 			r4 cis8(\p ~
 			cis8. d16 cis8)
-			
 			r4 << fis8( ~ \minHarp {s16\< s\!} >>
 			<< fis4 \minHarp {s16\> s\!} >> eis8)
 			r4 cis8( ~
