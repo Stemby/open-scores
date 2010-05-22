@@ -1,4 +1,4 @@
-\version "2.10.14"
+\version "2.12.0"
 
 staffinstvlI = \context Voice = vlI { \set Staff.instrumentName = \markup { "Violino I" \hspace #0.5 }}
 staffinstvlII = \context Voice = vlII { \set Staff.instrumentName = \markup { "Violino II" \hspace #0.5 }}
