@@ -175,7 +175,7 @@ violinoIISndo = \context Voice = vlII {
 		}
 		\repeat volta 2 {
 			\time 3/8
-			\tempo 4.=76
+%			\tempo 4.=76
 			a'4.(\p
 			gis%		150
 			a
@@ -229,7 +229,7 @@ violinoIISndo = \context Voice = vlII {
 			b4( a8)
 		}
 		\time 3/4
-		\tempo 4=144
+%		\tempo 4=144
 		\cadenzaOn
 		r4
 		\cadenzaOff

@@ -18,7 +18,7 @@ violaPmo = \context Voice = vla {
 		R1^\fermataMarkup%		7
 		\repeat volta 2 {
 			\time 3/4
-			\tempo 2.=60
+%			\tempo 2.=60
 			b2._\pSempTener
 			r4 b-.(\< b-.
 			b-. b-. d-.\!)%		10

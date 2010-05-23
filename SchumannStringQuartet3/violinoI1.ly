@@ -17,7 +17,7 @@ violinoIPmo = \context Voice = vlI {
 		fis''4(\pp b,)\fermata r2\fermata%		7
 		\repeat volta 2 {
 			\time 3/4
-			\tempo 2.=60
+%			\tempo 2.=60
 			fis'(\>_\pSempTener b,4)\!
 			r8 fis8(-. gis-. ais-. b-. cis)-.
 			d( cis e d cis b)%		10

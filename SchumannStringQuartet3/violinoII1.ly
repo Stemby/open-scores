@@ -17,7 +17,7 @@ violinoIIPmo = \context Voice = vlII {
 		R1^\fermataMarkup%		7
 		\repeat volta 2 {
 			\time 3/4
-			\tempo 2.=60
+%			\tempo 2.=60
 			<fis' a>2._\pSempTener
 			r4 <fis a>(-.\< <fis a>-.
 			<fis a>-. <fis a>-. gis-.\!)%		10

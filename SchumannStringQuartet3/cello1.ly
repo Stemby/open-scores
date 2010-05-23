@@ -18,7 +18,7 @@ celloPmo = \context Voice = vlc {
 		R1^\fermataMarkup%		7
 		\repeat volta 2 {
 			\time 3/4
-			\tempo 2.=60
+%			\tempo 2.=60
 			d'2._\pSempTener
 			r4 d(\<-. d-.
 			d-. d-. e-.\!)%		10

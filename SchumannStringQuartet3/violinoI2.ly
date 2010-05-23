@@ -172,7 +172,7 @@ violinoISndo = \context Voice = vlI {
 		}
 		\repeat volta 2 {
 			\time 3/8
-			\tempo 4.=76
+%			\tempo 4.=76
 			cis'(-.\p cis8-.)
 			cis8.( d16 cis8)%		150
 			cis4(\< fis8\!)
@@ -225,7 +225,7 @@ violinoISndo = \context Voice = vlI {
 			eis4 fis8)
 		}
 		\time 3/4
-		\tempo 4=144
+%		\tempo 4=144
 		\cadenzaOn
 		r8 cis(_\sempreF
 		\cadenzaOff

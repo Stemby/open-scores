@@ -181,7 +181,7 @@ celloSndo = \context Voice = vlc {
 		}
 		\repeat volta 2 {
 			\time 3/8
-			\tempo 4.=76
+%			\tempo 4.=76
 			fis4.(\p
 			eis%		150
 			fis
@@ -234,7 +234,7 @@ celloSndo = \context Voice = vlc {
 			cis4( fis,8)
 		}
 		\time 3/4
-		\tempo 4=144
+%		\tempo 4=144
 		\cadenzaOn
 		r4
 		\cadenzaOff

@@ -183,7 +183,7 @@ violaSndo = \context Voice = vla {
 		}
 		\repeat volta 2 {
 			\time 3/8
-			\tempo 4.=76
+%			\tempo 4.=76
 			R4.
 			R%		150
 			cis'4(-.\p cis8-.)
@@ -236,7 +236,7 @@ violaSndo = \context Voice = vla {
 			gis4( fis8)
 		}
 		\time 3/4
-		\tempo 4=144
+%		\tempo 4=144
 		\cadenzaOn
 		r4
 		\cadenzaOff
