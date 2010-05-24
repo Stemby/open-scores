@@ -43,4 +43,4 @@ sempreF = \markup { \line { \italic "sempre" \hspace #0.5 \dynamic f } }
 piuP = \markup { \line { \italic "più" \hspace #0.5 \dynamic p } }
 piuF = \markup { \line { \italic "più" \hspace #0.5 \dynamic f } }
 
-minHarp = \once \override Staff.Hairpin #'minimum-length = #3
+minHairpin = \once \override Hairpin #'minimum-length = #3

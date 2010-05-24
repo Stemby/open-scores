@@ -13,12 +13,12 @@ violinoISndo = \context Voice = vlI {
 		\repeat volta 2 {
 			r4 cis8(\p ~
 			cis8. d16 cis8)
-			r4 << fis8( ~ { \minHarp s16\< s\! } >>
-			<< fis4 { \minHarp s16\> s\! } >> eis8)
+			r4 << fis8( ~ { \minHairpin s16\< s\! } >>
+			<< fis4 { \minHairpin s16\> s\! } >> eis8)
 			r4 cis8( ~
 			cis8. d16 cis8)
-			r4 << fis8( ~ { \minHarp s16\< s\! } >>
-			<< fis4 { \minHarp s16\> s\! } >> eis8)
+			r4 << fis8( ~ { \minHairpin s16\< s\! } >>
+			<< fis4 { \minHairpin s16\> s\! } >> eis8)
 			r4 d8 ~
 			d8. d16( cis8)%		10
 			r4 b8 ~
@@ -47,12 +47,12 @@ violinoISndo = \context Voice = vlI {
 			fis4 e8)
 			r4 e8(\mf ~
 			e8. fis16 e8)
-			r4 << a8( ~ { \minHarp s16\< s\! } >>
-			<< a4 { \minHarp s16\> s\! } >> gis8)
+			r4 << a8( ~ { \minHairpin s16\< s\! } >>
+			<< a4 { \minHairpin s16\> s\! } >> gis8)
 			r4 e8( ~
 			e8. fis16 e8)
-			r4 << a8( ~ { \minHarp s16\< s\! } >>
-			<< a4 { \minHarp s16\> s\! } >> gis8)%		40
+			r4 << a8( ~ { \minHairpin s16\< s\! } >>
+			<< a4 { \minHairpin s16\> s\! } >> gis8)%		40
 			r4 fis8( ~
 			fis8. gis16 fis8)
 			e-. r d(\> ~

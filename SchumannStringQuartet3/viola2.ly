@@ -15,12 +15,12 @@ violaSndo = \context Voice = vla {
 			\set doubleSlurs = ##t%		ci vorrebbero legature di valore
 			r4 <cis a'>8(\p
 			<cis gis'>4) r8
-			r4 << <cis a'>8( { \minHarp s16\< s\! } >>
-			<< <cis gis'>4) { \minHarp s16\> s\! } >> r8
+			r4 << <cis a'>8( { \minHairpin s16\< s\! } >>
+			<< <cis gis'>4) { \minHairpin s16\> s\! } >> r8
 			r4 <cis a'>8(
 			<cis gis'>4) r8
-			r4 << <cis a'>8( { \minHarp s16\< s\! } >>
-			<< <cis gis'>4) { \minHarp s16\> s\! } >> r8
+			r4 << <cis a'>8( { \minHairpin s16\< s\! } >>
+			<< <cis gis'>4) { \minHairpin s16\> s\! } >> r8
 			\set doubleSlurs = ##f
 			r4 eis8(
 			fis4) r8%		10
@@ -32,8 +32,8 @@ violaSndo = \context Voice = vla {
 			gis4 a8\!)
 		}
 		\repeat volta 2 {
-			r4 << a8( ~ { \minHarp s16\< s\! } >>
-			<< a8. { \minHarp s16\> s\! } >> b16 a8)
+			r4 << a8( ~ { \minHairpin s16\< s\! } >>
+			<< a8. { \minHairpin s16\> s\! } >> b16 a8)
 			r4 d8(\< ~
 			d4\> cis8\!)%		20
 			r4 a8(\pp ~
@@ -50,12 +50,12 @@ violaSndo = \context Voice = vla {
 			dis4 e8)
 			r4 e8\mf ~
 			e4 e8
-			r4 << e8 ~ { \minHarp s16\< s\! } >>
-			<< e4 { \minHarp s16\> s\! } >> e8
+			r4 << e8 ~ { \minHairpin s16\< s\! } >>
+			<< e4 { \minHairpin s16\> s\! } >> e8
 			r4 e8 ~
 			e4 e8
-			r4 << e8 ~ { \minHarp s16\< s\! } >>
-			<< e4 { \minHarp s16\> s\! } >> e8%		40
+			r4 << e8 ~ { \minHairpin s16\< s\! } >>
+			<< e4 { \minHairpin s16\> s\! } >> e8%		40
 			r4 gis8(
 			a4) r8
 			r4 eis8(\>
