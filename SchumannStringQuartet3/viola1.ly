@@ -6,9 +6,11 @@ violaPmo = \context Voice = vla {
 	\relative c' {
 		\set Staff.midiInstrument = "cello"
 		\set Score.skipBars = ##t
+		\override Score.PaperColumn #'keep-inside-line = ##t
 		\clef alto
 		\key a \major
 		\time 4/4
+		\tempo "Andante espressivo" 4 = 60
 		b2.(\p d4
 		cis2) r
 		d,2.^>\> d8.(\! fis16)
@@ -18,7 +20,7 @@ violaPmo = \context Voice = vla {
 		R1^\fermataMarkup%		7
 		\repeat volta 2 {
 			\time 3/4
-%			\tempo 2.=60
+			\tempo "Allegro molto moderato" 2. = 60
 			b2._\pSempTener
 			r4 b-.(\< b-.
 			b-. b-. d-.\!)%		10

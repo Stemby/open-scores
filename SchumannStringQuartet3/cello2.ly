@@ -6,9 +6,11 @@ celloSndo = \context Voice = vlc {
 	\relative c {
 		\set Staff.midiInstrument = "cello"
 		\set Score.skipBars = ##t
+		\override Score.PaperColumn #'keep-inside-line = ##t
 		\clef bass
 		\key fis \minor
 		\time 3/8
+		\tempo "Assai agitato" 4. = 136
 		\repeat volta 2 {
 			r4 fis8(\p
 			eis4) r8
@@ -112,11 +114,11 @@ celloSndo = \context Voice = vlc {
 			cis d-> d%		90
 			d cis cis
 			cis b b%		92
-			\textSpannerUp
-			b \unPoRitardan ais\startTextSpan ais
+			\textSpannerUp \unPocoRitardando
+			b ais\startTextSpan ais
 			ais b b
 			b[ b,] b
-			b( bis^\do\stopTextSpan) bis%		96
+			b( bis\stopTextSpan) bis%		96
 			bis[( cis)] cis(
 		}
 		\alternative {
@@ -125,6 +127,7 @@ celloSndo = \context Voice = vlc {
 		}
 		\repeat volta 2 {
 			\time 2/4
+			\tempo "L'istesso tempo"
 			fis'2\f->%		100
 			cis'->
 			a8 b a gis
@@ -181,7 +184,7 @@ celloSndo = \context Voice = vlc {
 		}
 		\repeat volta 2 {
 			\time 3/8
-%			\tempo 4.=76
+			\tempo "Un poco Adagio" 4. = 76
 			fis4.(\p
 			eis%		150
 			fis
@@ -234,7 +237,7 @@ celloSndo = \context Voice = vlc {
 			cis4( fis,8)
 		}
 		\time 3/4
-%		\tempo 4=144
+		\tempo "Tempo risoluto" 4 = 144
 		\cadenzaOn
 		r4
 		\cadenzaOff
@@ -309,10 +312,11 @@ celloSndo = \context Voice = vlc {
 		fis4) fis4.-> cis8(
 		fis4) fis4.-> cis8(
 		fis4) fis2-> ~%		258
-		\textSpannerDown
-		\ri << fis2. ~ {s2\startTextSpan \tar s4\stopTextSpan\startTextSpan} >>
-		<< fis2. ~ {s4 \dan s\stopTextSpan\startTextSpan} >>%		260
-		fis2._\do\stopTextSpan\fermata
+		% SIMPLER TEXT SPANNER THAN IN THE ORIGINAL
+		\textSpannerDown \ritardando
+		fis2.\startTextSpan ~
+		fis2. ~%		260
+		fis2.\stopTextSpan\fermata
 		\bar "|."
 	}
 }

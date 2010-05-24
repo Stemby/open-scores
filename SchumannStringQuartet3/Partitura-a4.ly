@@ -33,7 +33,6 @@ Secondo = \new StaffGroup {
 	\score {
 		<<
 		\Primo
-		\mI
 		\staffinstvlI
 		\staffinstvlII
 		\staffinstvla
@@ -53,7 +52,6 @@ Secondo = \new StaffGroup {
 	\score {
 		<<
 		\Secondo
-		\mII
 		>>
 		\layout { }
 	}

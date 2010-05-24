@@ -6,8 +6,10 @@ violinoIISndo = \context Voice = vlII {
 	\relative c'' {
 		\set Staff.midiInstrument = "violin"
 		\set Score.skipBars = ##t
+		\override Score.PaperColumn #'keep-inside-line = ##t
 		\key fis \minor
 		\time 3/8
+		\tempo "Assai agitato" 4. = 136
 		\repeat volta 2 {
 			r4 a8(\p
 			b4) r8
@@ -111,11 +113,11 @@ violinoIISndo = \context Voice = vlII {
 			<a e'> <gis fis'>-> <gis fis'>%		90
 			<gis fis'> <a e'> <a e'>
 			<a e'> d d%		92
-			\textSpannerUp
-			d \unPoRitardan <e,? cis'>(-.\startTextSpan <e cis'>-.)
+			\textSpannerUp \unPocoRitardando
+			d <e,? cis'>(-.\startTextSpan <e cis'>-.)
 			<e cis'> <d cis'>(-. <d cis'>-.)
 			<d cis'> <d b'>(-. <d b'>-.)
-			<d b'>( <dis a'>^\do\stopTextSpan) a'%		96
+			<d b'>( <dis a'>\stopTextSpan) a'%		96
 			a[( gis)] b,(
 		}
 		\alternative {
@@ -124,6 +126,7 @@ violinoIISndo = \context Voice = vlII {
 		}
 		\repeat volta 2 {
 			\time 2/4
+			\tempo "L'istesso tempo"
 			R2%		100
 			R2*3
 			b'2\f->%		104
@@ -175,7 +178,7 @@ violinoIISndo = \context Voice = vlII {
 		}
 		\repeat volta 2 {
 			\time 3/8
-%			\tempo 4.=76
+			\tempo "Un poco Adagio" 4. = 76
 			a'4.(\p
 			gis%		150
 			a
@@ -229,7 +232,7 @@ violinoIISndo = \context Voice = vlII {
 			b4( a8)
 		}
 		\time 3/4
-%		\tempo 4=144
+		\tempo "Tempo risoluto" 4 = 144
 		\cadenzaOn
 		r4
 		\cadenzaOff
@@ -304,10 +307,11 @@ violinoIISndo = \context Voice = vlII {
 		cis ais cis ais cis ais
 		cis\< a? cis\! a\> cis a\!
 		cis ais cis ais cis ais)%		258
-		\textSpannerDown
-		\ri r4\startTextSpan r \tar r8\stopTextSpan\startTextSpan cis(\p
-		fis4) \dan fis2\stopTextSpan\startTextSpan ~%		260
-		fis2._\do\stopTextSpan\fermata
+		% SIMPLER TEXT SPANNER THAN IN THE ORIGINAL
+		\textSpannerDown \ritardando
+		r4\startTextSpan r r8 cis(\p
+		fis4) fis2 ~%		260
+		fis2.\stopTextSpan\fermata
 		\bar "|."
 	}
 }

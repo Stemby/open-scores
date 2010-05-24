@@ -6,8 +6,10 @@ violinoIPmo = \context Voice = vlI {
 	\relative c'' {
 		\set Staff.midiInstrument = "violin"
 		\set Score.skipBars = ##t
+		\override Score.PaperColumn #'keep-inside-line = ##t
 		\key a \major
 		\time 4/4
+		\tempo "Andante espressivo" 4 = 60
 		fis(\p b,) ~ b\< \grace { b8[( cis b ais b] } d8.\> b16
 		a?2)\! r
 		b4( eis,) ~ eis \grace { eis8[( fis eis\< dis eis] } fis8.\> d16
@@ -17,7 +19,7 @@ violinoIPmo = \context Voice = vlI {
 		fis''4(\pp b,)\fermata r2\fermata%		7
 		\repeat volta 2 {
 			\time 3/4
-%			\tempo 2.=60
+			\tempo "Allegro molto moderato" 2. = 60
 			fis'(\>_\pSempTener b,4)\!
 			r8 fis8(-. gis-. ais-. b-. cis)-.
 			d( cis e d cis b)%		10
@@ -86,13 +88,14 @@ violinoIPmo = \context Voice = vlI {
 			dis\! e4. gis,8
 			fis4) fis( b_\dimin
 			e, a gis
-			fis\< bis4.\!\> cis8\!)
-			cis4\<_\un cisis4.(\!\>_\poco dis8\!)
-			\textSpannerDown
-			\ri dis(\startTextSpan fis e2) ~
-			\te e4\stopTextSpan\startTextSpan eis4.(\< fis8\!)
-			\nu fis(\stopTextSpan\startTextSpan a) gis2 ~%		80
-			gis4_\to\stopTextSpan cis(\pp gis
+			fis\< bis4.\> cis8\!)
+			cis4\<_\unPoco cisis4.(\> dis8\!)
+			% SIMPLER TEXT SPANNER THAN IN THE ORIGINAL
+			\textSpannerDown \ritenuto
+			dis(\startTextSpan fis e2) ~
+			e4 eis4.(\< fis8\!)
+			fis( a) gis2 ~%		80
+			gis4\stopTextSpan cis(\pp gis
 			eis2 dis4
 			cis2 b?4)
 			a2.^\aTempo ~

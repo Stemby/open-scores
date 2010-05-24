@@ -6,9 +6,11 @@ celloPmo = \context Voice = vlc {
 	\relative c {
 		\set Staff.midiInstrument = "cello"
 		\set Score.skipBars = ##t
+		\override Score.PaperColumn #'keep-inside-line = ##t
 		\clef bass
 		\key a \major
 		\time 4/4
+		\tempo "Andante espressivo" 4 = 60
 		d2.\p( e4)
 		eis( fis) r2
 		g,2.^>\>( a4\!
@@ -18,7 +20,7 @@ celloPmo = \context Voice = vlc {
 		R1^\fermataMarkup%		7
 		\repeat volta 2 {
 			\time 3/4
-%			\tempo 2.=60
+			\tempo "Allegro molto moderato" 2. = 60
 			d'2._\pSempTener
 			r4 d(\<-. d-.
 			d-. d-. e-.\!)%		10

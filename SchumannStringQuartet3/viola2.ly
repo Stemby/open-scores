@@ -6,9 +6,11 @@ violaSndo = \context Voice = vla {
 	\relative c' {
 		\set Staff.midiInstrument = "cello"
 		\set Score.skipBars = ##t
+		\override Score.PaperColumn #'keep-inside-line = ##t
 		\clef alto
 		\key fis \minor
 		\time 3/8
+		\tempo "Assai agitato" 4. = 136
 		\repeat volta 2 {
 			\set doubleSlurs = ##t%		ci vorrebbero legature di valore
 			r4 <cis a'>8(\p
@@ -114,11 +116,11 @@ violaSndo = \context Voice = vla {
 			e4. ~%		90
 			e8 e e
 			e eis eis%		92
-			\textSpannerUp
-			eis \unPoRitardan fis\startTextSpan fis
+			\textSpannerUp \unPocoRitardando
+			eis fis\startTextSpan fis
 			fis fis fis
 			fis fis fis
-			fis( dis^\do\stopTextSpan) dis%		96
+			fis( dis\stopTextSpan) dis%		96
 			dis[( eis)] eis(
 		}
 		\alternative {
@@ -127,6 +129,7 @@ violaSndo = \context Voice = vla {
 		}
 		\repeat volta 2 {
 			\time 2/4
+			\tempo "L'istesso tempo"
 			R2%		100
 			R
 			cis2\f->
@@ -183,7 +186,7 @@ violaSndo = \context Voice = vla {
 		}
 		\repeat volta 2 {
 			\time 3/8
-%			\tempo 4.=76
+			\tempo "Un poco Adagio" 4. = 76
 			R4.
 			R%		150
 			cis'4(-.\p cis8-.)
@@ -236,7 +239,7 @@ violaSndo = \context Voice = vla {
 			gis4( fis8)
 		}
 		\time 3/4
-%		\tempo 4=144
+		\tempo "Tempo risoluto" 4 = 144
 		\cadenzaOn
 		r4
 		\cadenzaOff
@@ -311,10 +314,11 @@ violaSndo = \context Voice = vla {
 		fis cis fis cis fis cis
 		fis\< cis fis\! cis\> fis cis\!)
 		r4 r r8 cis(\p%		258
-		\textSpannerDown
-		\ri fis4)\startTextSpan << fis2 ~ {s4 \tar s\stopTextSpan\startTextSpan} >>
-		<< fis2. {s4 \dan s\stopTextSpan\startTextSpan} >>%		260
-		<cis ais'>2._\do\stopTextSpan\fermata
+		% SIMPLER TEXT SPANNER THAN IN THE ORIGINAL
+		\textSpannerDown \ritardando
+		fis4)\startTextSpan fis2 ~
+		fis2.%		260
+		<cis ais'>2.\stopTextSpan\fermata
 		\bar "|."
 	}
 }

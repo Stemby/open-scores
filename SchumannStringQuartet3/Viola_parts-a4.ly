@@ -14,15 +14,15 @@
 #(set-global-staff-size 22.45)
 
 \book {
-	\header { instrument = \markup { \box "Viola" } }
+	\header { instrument = \markup { \rounded-box "Viola" } }
 	\score {
-		\new Staff { << \mI \violaPmo >> }
+		\new Staff { \violaPmo }
 		\layout { indent = 0\cm }
 	}
 	\score {
 		\new Staff {
-			\pageBreak
-			<< \mII \violaSndo >>
+			\pageBreak% IT DOESN'T WORK: WHY?
+			\violaSndo
 		}
 		\layout { indent = 0\cm }
 	}

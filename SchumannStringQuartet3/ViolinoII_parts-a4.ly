@@ -14,15 +14,15 @@
 #(set-global-staff-size 22.45)
 
 \book {
-	\header { instrument = \markup { \box "Violino II" } }
+	\header { instrument = \markup { \rounded-box "Violino II" } }
 	\score {
-		\new Staff { << \mI \violinoIIPmo >> }
+		\new Staff { \violinoIIPmo }
 		\layout { indent = 0\cm }
 	}
 	\score {
 		\new Staff {
-			\pageBreak
-			<< \mII \violinoIISndo >>
+			\pageBreak% IT DOESN'T WORK: WHY?
+			\violinoIISndo
 		}
 		\layout { indent = 0\cm }
 	}
