@@ -14,12 +14,12 @@ celloSndo = \context Voice = vlc {
 		\repeat volta 2 {
 			r4 fis8(\p
 			eis4) r8
-			r4 << fis8( \minHarp {s16\< s\!} >>
-			<< cis4) \minHarp {s16\> s\!} >> r8
+			r4 << fis8( { \minHarp s16\< s\! } >>
+			<< cis4) { \minHarp s16\> s\! } >> r8
 			r4 fis8(
 			eis4) r8
-			r4 << fis8( \minHarp {s16\< s\!} >>
-			<< cis4) \minHarp {s16\> s\!} >> r8
+			r4 << fis8( { \minHarp s16\< s\! } >>
+			<< cis4) { \minHarp s16\> s\! } >> r8
 			r4 b'8(
 			a4) r8%		10
 			r4 gis8(
@@ -48,12 +48,12 @@ celloSndo = \context Voice = vlc {
 			bis4 cis8)
 			r4 cis8(\mf
 			d4 e,8)
-			r4 << dis'8( \minHarp {s16\< s\!} >>
-			<< e4 \minHarp {s16\> s\!} >> e,8)
+			r4 << dis'8( { \minHarp s16\< s\! } >>
+			<< e4 { \minHarp s16\> s\! } >> e,8)
 			r4 cis'8(
 			d4 e,8)
-			r4 << dis'8( \minHarp {s16\< s\!} >>
-			<< e4 \minHarp {s16\> s\!} >> e,8)%		40
+			r4 << dis'8( { \minHarp s16\< s\! } >>
+			<< e4 { \minHarp s16\> s\! } >> e,8)%		40
 			r4 d'8(
 			cis4) r8
 			r4 b8(\>
