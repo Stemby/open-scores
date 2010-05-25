@@ -44,23 +44,21 @@ Secondo = \new StaffGroup {
 		\unfoldRepeats { \Primo }
 		\midi {
 			\context {
-				\Score
-				tempoWholesPerMinute = #(ly:make-moment 60 4)
+				\Voice
+				\remove "Dynamic_performer"
 			}
 		}
 	}
 	\score {
-		<<
 		\Secondo
-		>>
 		\layout { }
 	}
 	\score {
 		\unfoldRepeats { \Secondo }
 		\midi {
 			\context {
-				\Score
-				tempoWholesPerMinute = #(ly:make-moment 408 8)
+				\Voice
+				\remove "Dynamic_performer"
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 
 violaPmo = \context Voice = vla {
 	\relative c' {
-		\set Staff.midiInstrument = "cello"
+		\set Staff.midiInstrument = #"viola"
 		\set Score.skipBars = ##t
 		\override Score.PaperColumn #'keep-inside-line = ##t
 		\clef alto

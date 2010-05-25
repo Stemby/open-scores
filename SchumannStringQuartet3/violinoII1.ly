@@ -4,7 +4,7 @@
 
 violinoIIPmo = \context Voice = vlII {
 	\relative c' {
-		\set Staff.midiInstrument = "violin"
+		\set Staff.midiInstrument = #"violin"
 		\set Score.skipBars = ##t
 		\override Score.PaperColumn #'keep-inside-line = ##t
 		\key a \major

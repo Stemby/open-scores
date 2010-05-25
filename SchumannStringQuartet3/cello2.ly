@@ -4,7 +4,7 @@
 
 celloSndo = \context Voice = vlc {
 	\relative c {
-		\set Staff.midiInstrument = "cello"
+		\set Staff.midiInstrument = #"cello"
 		\set Score.skipBars = ##t
 		\override Score.PaperColumn #'keep-inside-line = ##t
 		\clef bass
