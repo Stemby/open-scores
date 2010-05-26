@@ -111,7 +111,7 @@ celloPmo = \context Voice = vlc {
 			R2.
 			a
 			R
-			r4 fis8 r b r%			100
+			r4 fis8 r b r%		100
 			e,4 r r
 		}
 		d'2.
@@ -122,8 +122,122 @@ celloPmo = \context Voice = vlc {
 		<g, d'>2. ~
 		<g d'> ~
 		<g d'>
-		g%					110
-
+		g%		110
+		fis? ~
+		fis ~
+		fis
+		f
+		<e b'> ~
+		<e b'> ~
+		<e b'>
+		dis2 e4
+		f2.
+		g%		120
+		a
+		b
+		r8 d, e fis? g a
+		b a c b a g
+		bes2.
+		a
+		r8 e fis gis? a b
+		cis b d cis b a
+		c2.
+		b%		130
+		r8 fis gis? ais b cis
+		d cis e d cis b
+		g'2 e4
+		d2 cis?4
+		R2.
+		r8 fis, gis ais b cis
+		d2 b4
+		a2 gis?4
+		R2.
+		r8 cis, dis eis fis gis%		140
+		a2.
+		b
+		cis
+		d
+		dis
+		e
+		r4 e e
+		e e f
+		f2 fis4
+		gis2.%		150
+		a
+		b ~
+		b4 r r
+		r cis d
+		e fis4. b,8
+		b4 b cis
+		d? e4. a,8
+		a4 a b
+		cis d e
+		fis d g%		160
+		e a4. g8
+		fis2 r4
+		r r8 e, r gis
+		r a r gis' r fis
+		r eis r fis r e
+		r dis r e r cis
+		r d? r b r cis
+		r d r dis r dis
+		r e r e r e
+		r4 a,, b%		170
+		cis d dis
+		e d? cis
+		b a cis
+		d cis b
+		a gis g
+		fis b e,
+		a b cis
+		d d' e
+		fis gis? e
+		a gis fis%		180
+		eis fis e
+		dis e cis
+		d? b cis
+		d dis2 ~
+		dis4 eis2 ~
+		eis4 fis2 ~
+		fis4 gis2 ~
+		gis4 \clef tenor a2 ~
+		a4 ais2 ~
+		ais4 cis b%		190
+		ais2 gis4
+		fis \clef bass gis,4. a8
+		a2. ~
+		a ~
+		a ~ \bar "||"
+		\time 4/4 a4 a2 fis4 ~
+		fis e2. \bar "||"
+		\time 3/4 a,4 r r
+		R2.
+		fis'2.%		200
+		r8 fis e d cis b
+		a4 r r
+		a r r
+		a r r
+		R2.
+		d2.
+		r4 d d
+		d d e
+		a,2.
+		dis%		210
+		d?
+		cis
+		d
+		cis
+		d%		215
+		cis2
+		<< { s4 | r r d' ~ | d2 bes4 } \\
+		{ d,4 ~ | d2. ~ | d } >>
+		e2 eis4 ~
+		eis2 fis4 ~%		220
+		fis2 gis4 ~
+		gis2 a4 ~
+		a2 r4
+		R2.*2
+		e2 a,4
 		\bar "|."
 	}
 }

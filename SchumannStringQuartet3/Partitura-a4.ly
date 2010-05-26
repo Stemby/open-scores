@@ -49,7 +49,7 @@ Secondo = \new StaffGroup {
 			}
 		}
 	}
-	\score {
+%{ 	\score {
 		\Secondo
 		\layout { }
 	}
@@ -61,5 +61,5 @@ Secondo = \new StaffGroup {
 				\remove "Dynamic_performer"
 			}
 		}
-	}
+	} %}
 }

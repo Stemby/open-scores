@@ -19,11 +19,11 @@
 		\new Staff { \celloPmo }
 		\layout { indent = 0\cm }
 	}
-	\score {
+%{ 	\score {
 		\new Staff {
 			\pageBreak% IT DOESN'T WORK: WHY?
 			\celloSndo
 		}
 		\layout { indent = 0\cm }
-	}
+	} %}
 }

@@ -62,8 +62,8 @@ violinoISndo = \context Voice = vlI {
 			a r gis(\pp ~
 		}
 		\alternative {
-			{gis4 fis8)}
-			{fis\repeatTie r r}
+			{ gis4 fis8) }
+			{ fis\repeatTie r r }
 		}
 		\repeat volta 2 {
 			R4.%		50
@@ -83,8 +83,8 @@ violinoISndo = \context Voice = vlI {
 			gis( eis) eis
 		}
 		\alternative {
-			{eis( fis\!) r}
-			{eis( fis) r}
+			{ eis( fis\!) r }
+			{ eis( fis) r }
 		}
 		\repeat volta 2 {
 			R4.
@@ -121,8 +121,8 @@ violinoISndo = \context Voice = vlI {
 			fis[( cis)] cis
 		}
 		\alternative {
-			{cis_\aTempo r r}
-			{cis r r}
+			{ cis_\aTempo r r }
+			{ cis r r }
 		}
 		\repeat volta 2 {
 			\time 2/4
@@ -170,8 +170,8 @@ violinoISndo = \context Voice = vlI {
 			eis fis dis eis
 		}
 		\alternative {
-			{fis2}
-			{fis4 r\fermata}
+			{ fis2 }
+			{ fis4 r\fermata }
 		}
 		\repeat volta 2 {
 			\time 3/8
@@ -243,8 +243,8 @@ violinoISndo = \context Voice = vlI {
 			cis4) <eis, cis'>4.-> cis'8(
 		}
 		\alternative {
-			{cis'4) <cis, cis'>4.-> cis,8\laissezVibrer}
-			{cis''4\repeatTie <cis, cis'>4.-> r8}
+			{ cis'4) <cis, cis'>4.-> cis,8\laissezVibrer }
+			{ cis''4\repeatTie <cis, cis'>4.-> r8 }
 		}
 		\repeat volta 2 {
 			r fis,[-. a-. fis-.] a-. r
@@ -272,8 +272,8 @@ violinoISndo = \context Voice = vlI {
 			cis'4) <cis, cis'>4.-> cis'8(
 		}
 		\alternative {
-			{fis4) <a,, fis''>4.-> r8}
-			{fis''4\fz\repeatTie fis2\p ~}%		230
+			{ fis4) <a,, fis''>4.-> r8 }
+			{ fis''4\fz\repeatTie fis2\p ~ }%		230
 		}
 		fis2.\> ~
 		fis ~
