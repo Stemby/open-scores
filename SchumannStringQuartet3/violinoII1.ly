@@ -223,11 +223,14 @@ violinoIIPmo = \context Voice = vlII {
 		<fis a> <fis a> <d gis>
 		e2.
 		<fis a>%		210
-		<<
-		{f'2 e4 | e2 f4 ~ | f2 e4 | e2 f4 ~ | f2 e4 | e2 f4 ~ | f2\stemDown d4 ~ | d2 d4} \\
-		{b2. | a | b | a | b | a | s2.*2}
-		>>
-		<e a>2 d4 ~%		219
+		<< {
+			f'2 e4 | e2 f4 ~ | f2 e4 | e2 f4 ~ |
+			f2 e4 |	e2 f4 ~ | f2\stemDown % \stemDown DOESN'T WORK
+		} \\
+		{ b,2. | a | b | a | b | a | } >>
+		d4 ~
+		d2 d4%		218
+		<e, a>2 d4 ~
 		d2 cis4 ~%		220
 		cis2 b4 ~
 		b2 cis4 ~

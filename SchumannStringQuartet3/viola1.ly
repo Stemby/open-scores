@@ -195,8 +195,38 @@ violaPmo = \context Voice = vla {
 		r4 cis2 ~
 		cis4 cis fis
 		cis2 b4%		190
-		gis?2
-
+		ais2 gis4
+		fis2. ~
+		fis4 fis, a8 d
+		fis2 e4 ~
+		e dis d ~ \bar "||"
+		\time 4/4 d cis2 bis4 ~
+		bis cis2 gis4 \bar "||"
+		\time 3/4 a r r
+		R2.
+		<b a'>2.%		200
+		r4 d? d
+		d8 cis b cis a4
+		a r r
+		a r r
+		R2.
+		b2.
+		r4 b b
+		b b d
+		d2 cis4
+		<b fis'>2.%		210
+		<< { f'2 e4 | e2 f4 ~ | f2 e4 | e2 f4 ~ | f2 e4 | e2 f4 ~ | f2\stemDown } \\ % \stemDown DOESN'T WORK
+		{ gis,?2. | a | gis | a | gis | a | } >>
+		f'4 ~
+		f2 <d f>4%		218
+		cis?2 b?4 ~
+		b2 a4 ~%		220
+		a2 b4 ~
+		b2 a4 ~
+		a2 r4
+		a2 r4
+		a2 r4
+		a2.
 		\bar "|."
 	}
 }
