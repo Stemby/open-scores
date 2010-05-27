@@ -8,6 +8,14 @@ staffinstvlII = \context Voice = vlII { \set Staff.instrumentName = \markup { "V
 staffinstvla = \context Voice = vla { \set Staff.instrumentName = \markup { "Viola" \hspace #0.5 }}
 staffinstvlc = \context Voice = vlc { \set Staff.instrumentName = \markup { "Violoncello" \hspace #0.5 }}
 
+% General markings and annotations for each movement
+% TODO
+adagioMolto = {
+	\key d \major
+	\time 4/4
+	\tempo "Adagio molto" 4 = 66
+}
+
 unPoRit = \markup { \italic "un poco ritard." }
 
 pSempTener = \markup { \line { \dynamic p \hspace #0.5 \italic "sempre teneramente" } }

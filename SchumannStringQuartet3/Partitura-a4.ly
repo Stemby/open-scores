@@ -8,6 +8,10 @@
 \include "violinoII2.ly"
 \include "viola2.ly"
 \include "cello2.ly"
+\include "violinoI3.ly"
+\include "violinoII3.ly"
+\include "viola3.ly"
+\include "cello3.ly"
 \include "marks.ly"
 
 #(set-global-staff-size 12.60)
@@ -28,9 +32,16 @@ Secondo = \new StaffGroup {
 	\new Staff { \celloSndo }
 	>>
 }
-
+Terzo = \new StaffGroup {
+	<<
+	\new Staff { \violinoITzo }
+	\new Staff { \violinoIITzo }
+	\new Staff { \violaTzo }
+	\new Staff { \celloTzo }
+	>>
+}
 \book {
-	\score {
+%{	\score {
 		<<
 		\Primo
 		\staffinstvlI
@@ -49,7 +60,7 @@ Secondo = \new StaffGroup {
 			}
 		}
 	}
-%{ 	\score {
+	\score {
 		\Secondo
 		\layout { }
 	}
@@ -62,4 +73,17 @@ Secondo = \new StaffGroup {
 			}
 		}
 	} %}
+	\score {
+		\Terzo
+		\layout { }
+	}
+	\score {
+		\unfoldRepeats { \Terzo }
+		\midi {
+			\context {
+				\Voice
+				\remove "Dynamic_performer"
+			}
+		}
+	}
 }
