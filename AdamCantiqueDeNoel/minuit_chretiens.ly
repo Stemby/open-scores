@@ -9,7 +9,7 @@
   poet = "Placide Cappeau (1808-1877)"
   %instrument = "Voix et Piano"
   % date de composition = "décembre 1847"
-  source = "Ed. Léon Grus"
+  source = "The John Church Company, 1912"
   copyright = "Public Domain"
   enteredby = "Carlo Stemberger"
   maintainer = "Carlo Stemberger"
