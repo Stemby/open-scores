@@ -4,6 +4,7 @@
 *.mp3
 *.midi
 *.mid
+*.wav
 *.swp
 *.log
 *~
