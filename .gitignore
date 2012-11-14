@@ -2,9 +2,11 @@
 *.ps
 *.gif
 *.mp3
+*.ogg
 *.midi
 *.mid
 *.wav
 *.swp
 *.log
+*.zip
 *~
